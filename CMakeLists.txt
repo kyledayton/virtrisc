@@ -12,4 +12,4 @@ set(
 add_library(virtrisc ${SOURCES})
 target_include_directories(virtrisc PUBLIC include)
 
-add_subdirectory(example)
+add_subdirectory(virtmachine)

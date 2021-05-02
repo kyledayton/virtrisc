@@ -3,7 +3,7 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="virtrisc" targetName="virtrisc" />
-      <config projectName="virtrisc" targetName="virtrisc_example" />
+      <config projectName="virtrisc" targetName="virtmachine" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -12,7 +12,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63761cc6-3b52-401b-b1f4-0898e7905bbe" name="Default Changelist" comment="" />
+    <list default="true" id="63761cc6-3b52-401b-b1f4-0898e7905bbe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/virtmachine/display.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/virtmachine/display.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/virtmachine/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/example.c" beforeDir="false" afterPath="$PROJECT_DIR$/virtmachine/example.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +55,7 @@
     <option name="configuration" value="0-Debug-riscy" />
   </component>
   <component name="ProjectId" id="1rGqyryR1qwqumYkbKkoA9BNPjS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,25 +82,30 @@
       <recent name="C:\Users\Kyle\CLionProjects\risc-y\include" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.virtrisc_example">
+  <component name="RunManager" selected="CMake Application.virtmachine">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="virtmachine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="virtrisc" TARGET_NAME="virtmachine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="virtrisc" RUN_TARGET_NAME="virtmachine">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="virtrisc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="virtrisc" TARGET_NAME="virtrisc" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="virtrisc_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="virtrisc" TARGET_NAME="virtrisc_example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="virtrisc" RUN_TARGET_NAME="virtrisc_example">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="CMake Application.virtrisc" />
-      <item itemvalue="CMake Application.virtrisc_example" />
+      <item itemvalue="CMake Application.virtmachine" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
