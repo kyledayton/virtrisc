@@ -27,7 +27,7 @@ void VirtRISC_Machine_Init(VirtRISC_Machine *machine) {
 }
 
 void VirtRISC_Machine_MapMem(VirtRISC_Machine *machine, VirtRISC_MemMap *mem) {
-    if (machine->numMemMaps + 1 < MAX_MEM_MAPS) {
+    if (machine->numMemMaps < MAX_MEM_MAPS) {
         machine->mem[machine->numMemMaps++] = mem;
     }
 }
